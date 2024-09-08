@@ -1,0 +1,19 @@
+{
+  "name": "my-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^10.2.2"
+  }
+}
