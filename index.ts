@@ -1,4 +1,4 @@
-const toggleButton: HTMLElement | null = document.getElementById('toggle-skills');
+const toggleButton: HTMLElement | any = document.getElementById('toggle-skills');
 const moreSkills: NodeListOf<HTMLElement> = document.querySelectorAll('.more-skills');
 
 if (toggleButton) {

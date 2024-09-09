@@ -11,3 +11,5 @@ if (toggleButton) {
             toggleButton.textContent === 'See More' ? 'See Less' : 'See More';
     });
 }
+// NodeListOf<HTMLElement>
+// : HTMLElement | nullO
