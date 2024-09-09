@@ -111,10 +111,6 @@ body {
     border-radius: 4px;
 }
 
-.more-skills {
-    display: none;
-}
-
 #toggle-skills {
     background-color: #007bff;
     color: white;
@@ -123,6 +119,10 @@ body {
     margin-top: 10px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.more-skills{
+    display: none;
 }
 
 #toggle-skills:hover {
@@ -172,7 +172,7 @@ body {
         font-size: 22px;
     }
 
-    button {
+    #toggle-skills {
         width: 100%;
     }
 }

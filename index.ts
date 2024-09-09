@@ -1,10 +1,12 @@
-const toggleButton: HTMLElement | any = document.getElementById('toggle-skills');
-const moreSkills: NodeListOf<HTMLElement> = document.querySelectorAll('.more-skills');
+const toggleButton = document.getElementById('toggle-skills') as HTMLButtonElement | null;
+const moreSkills = document.querySelectorAll('.more-skills') as NodeListOf<HTMLElement>;
 
 if (toggleButton) {
     toggleButton.addEventListener('click', () => {
         moreSkills.forEach(skill => {
-            skill.style.display = skill.style.display === 'block' ? 'none' : 'block';
+            if (skill instanceof HTMLElement) {
+                skill.style.display = skill.style.display === 'block' ? 'none' : 'block';
+            }
         });
         
         toggleButton.textContent = 
